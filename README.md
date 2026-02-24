@@ -5,6 +5,7 @@ This project delivers a comprehensive enterprise-level analysis of 11,750 B2B sa
 - Sales cycle impact
 - Sales representative productivity
 - Revenue concentration risk
+  
 The objective is to determine whether the pipeline functions as a reliable predictive revenue instrument or merely as a volume tracker.
 # Dataset Summary
 The dataset follows a star schema structure:
@@ -28,12 +29,14 @@ Sales Velocity:	€1,996,549
 Weighted Pipeline:	€429M
 # Major Findings
 **Forecasting System Failure**
+
 Probability calibration analysis revealed:
 - Win rates remain statistically flat (25-27%) across all probability buckets
 - Correlation between assigned probability and actual outcome ≈ 0.02
 - High-confidence deals (76-100%) close at only 25%
 # Conclusion
 The current probability system lacks predictive validity and inflates forecast confidence.
+
 Funnel Leakage & Stage Inefficiency
 - Significant revenue attrition occurs in early and mid-funnel stages
 - Stage progression does not materially improve win likelihood
@@ -43,7 +46,6 @@ Deal Cycle Significantly Impacts Outcome
 Statistical testing (p < 0.05) confirms:
 - Longer deal cycles are associated with lower win probability
 - Cycle duration materially affects revenue predictability
-  
 **Recommendation:** Introduce cycle guardrails and acceleration strategies.
 **Sales Performance Concentration Risk**
 Revenue contribution is unevenly distributed
