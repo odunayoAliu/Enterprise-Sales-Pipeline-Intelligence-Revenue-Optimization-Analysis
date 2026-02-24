@@ -8,11 +8,11 @@ This project delivers a comprehensive enterprise-level analysis of 11,750 B2B sa
 The objective is to determine whether the pipeline functions as a reliable predictive revenue instrument or merely as a volume tracker.
 **Dataset Summary**
 The dataset follows a star schema structure:
-FactDeals – Core opportunity data
-FactActivities – Sales engagement activity logs
-DimCompany – Company attributes
-DimSalesRep – Representative attributes
-DimDate – Calendar dimension
+FactDeals: Core opportunity data
+FactActivities: Sales engagement activity logs
+DimCompany: Company attributes
+DimSalesRep: Representative attributes
+DimDate: Calendar dimension
 After reconstruction and dimensional joins, a master analytical dataset of:
 - 11,750 deals
 - 41 engineered features
