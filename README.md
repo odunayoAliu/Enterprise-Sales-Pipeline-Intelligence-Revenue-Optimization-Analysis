@@ -43,6 +43,7 @@ Deal Cycle Significantly Impacts Outcome
 Statistical testing (p < 0.05) confirms:
 - Longer deal cycles are associated with lower win probability
 - Cycle duration materially affects revenue predictability
+  
 **Recommendation:** Introduce cycle guardrails and acceleration strategies.
 **Sales Performance Concentration Risk**
 Revenue contribution is unevenly distributed
@@ -77,7 +78,7 @@ If the organization were to:
 The incremental revenue impact would be material without increasing pipeline volume.
 This analysis transforms the pipeline from a reporting tool into a strategic revenue intelligence engine.
 # Tools & Technologies
--Python
+- Python
 - Pandas
 - NumPy
 - SciPy
