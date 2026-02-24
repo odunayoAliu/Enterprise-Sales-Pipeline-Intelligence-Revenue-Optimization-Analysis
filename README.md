@@ -106,7 +106,7 @@ Risk: Overdependence on high-performing reps.
 # Project Structure
 enterprise-sales-pipeline-intelligence/
 
-│
+enterprise-sales-pipeline-intelligence/
 
 ├── data/
 
@@ -121,6 +121,8 @@ enterprise-sales-pipeline-intelligence/
 ├── reports/
 
 │   └── Enterprise_Sales_Pipeline_Board_Report.pdf
+
+│
 
 └── README.md
 
