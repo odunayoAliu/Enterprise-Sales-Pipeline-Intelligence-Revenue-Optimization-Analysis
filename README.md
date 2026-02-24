@@ -6,7 +6,7 @@ This project delivers a comprehensive enterprise-level analysis of 11,750 B2B sa
 - Sales representative productivity
 - Revenue concentration risk
 The objective is to determine whether the pipeline functions as a reliable predictive revenue instrument or merely as a volume tracker.
-**Dataset Summary**
+# Dataset Summary
 The dataset follows a star schema structure:
 FactDeals: Core opportunity data
 FactActivities: Sales engagement activity logs
@@ -19,20 +19,20 @@ After reconstruction and dimensional joins, a master analytical dataset of:
 - Lifecycle duration metrics
 - Activity aggregation
 - Probability calibration fields. was created for advanced revenue intelligence analysis.
-**Key Performance Metrics
+# Key Performance Metrics
 Total Deals:	11,750
 Overall Win Rate:	27%
 Average Deal Cycle:	131 days
 Average Deal Size:	€87,039
 Sales Velocity:	€1,996,549
 Weighted Pipeline:	€429M
-**Major Findings**
+# Major Findings
 **Forecasting System Failure**
 Probability calibration analysis revealed:
 - Win rates remain statistically flat (25-27%) across all probability buckets
 - Correlation between assigned probability and actual outcome ≈ 0.02
 - High-confidence deals (76-100%) close at only 25%
-**Conclusion:**
+# Conclusion
 The current probability system lacks predictive validity and inflates forecast confidence.
 Funnel Leakage & Stage Inefficiency
 - Significant revenue attrition occurs in early and mid-funnel stages
@@ -58,7 +58,7 @@ Risk: Overdependence on high-performing reps.
 - Correlation analysis
 - Independent t-test (Deal cycle impact)
 - Custom Sales Efficiency Index creation
-**Project Structure**
+# Project Structure
 enterprise-sales-pipeline-intelligence/
 │
 ├── data/
@@ -76,17 +76,15 @@ If the organization were to:
 - Reduce average deal cycle duration
 The incremental revenue impact would be material without increasing pipeline volume.
 This analysis transforms the pipeline from a reporting tool into a strategic revenue intelligence engine.
-**Tools & Technologies**
-Python
-Pandas
-NumPy
-SciPy
-Matplotlib
-ReportLab (Board Report Generation)
+# Tools & Technologies
+-Python
+- Pandas
+- NumPy
+- SciPy
 **Final Assessment**
 The pipeline demonstrates stable headline performance but underlying structural inefficiencies in:
 - Forecast governance
 - Stage qualification discipline
 - Sales cycle management
--Performance distribution
+- Performance distribution
 With calibration and operational refinement, the organization can significantly improve revenue predictability and realization efficiency.
