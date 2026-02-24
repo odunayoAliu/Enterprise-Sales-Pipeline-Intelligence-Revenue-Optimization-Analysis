@@ -18,22 +18,20 @@ After reconstruction and dimensional joins, a master analytical dataset of:
 - 41 engineered features
 - Lifecycle duration metrics
 - Activity aggregation
-- Probability calibration fields
-was created for advanced revenue intelligence analysis.
+- Probability calibration fields. was created for advanced revenue intelligence analysis.
 **Key Performance Metrics
-Metric	Value**
-Total Deals	11,750
-Overall Win Rate	27%
-Average Deal Cycle	131 days
-Average Deal Size	€87,039
-Sales Velocity	€1,996,549
-Weighted Pipeline	€429M
+Total Deals:	11,750
+Overall Win Rate:	27%
+Average Deal Cycle:	131 days
+Average Deal Size:	€87,039
+Sales Velocity:	€1,996,549
+Weighted Pipeline:	€429M
 **Major Findings**
 **Forecasting System Failure**
 Probability calibration analysis revealed:
-Win rates remain statistically flat (25-27%) across all probability buckets
-Correlation between assigned probability and actual outcome ≈ 0.02
-High-confidence deals (76-100%) close at only 25%
+- Win rates remain statistically flat (25-27%) across all probability buckets
+- Correlation between assigned probability and actual outcome ≈ 0.02
+- High-confidence deals (76-100%) close at only 25%
 **Conclusion:**
 The current probability system lacks predictive validity and inflates forecast confidence.
 Funnel Leakage & Stage Inefficiency
